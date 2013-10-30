@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #2F2E2D;
+    font-family: 'Prosto One', cursive;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 100px;
+    overflow: auto;
+}
+
+#header{
+    width: 960px;
+    overflow: auto;
+    margin: 0 0 40px;
+    padding-top: 20px;
+}
+
+h1{
+    float: left;
+}
+
+nav > ul{
+    list-style-type: none;
+    padding: 10px 0 0;
+    float: right;
+
+}
+
+nav > ul li{
+    float: left;
+    margin: 0;
+    padding: 5px 20px;
+    background-color: #F2F4F4;
+}
+
+nav a {
+    text-decoration: none;
+    color: #455459;
+}
+
+nav a:hover{
+    color: #A4A792;
+}
+
+figure > #mainImage{
+    width: 480px;
+}
+
+figure{
+    display: block;
+    width: 480px;
+    margin: 0 0 50px 0;
+    float: left;
+}
+
+figcaption{
+    font-size: .5em;
+}
+
+.bottom{
+    float: left;
+}
+
+div + p{
+    width: 480px;
+    clear: left;
+}
+
+#quotes{
+    width: 400px;
+    float: left;
+    border-left: 2px solid black;
+    padding: 50px 0;
+    margin: 0 50px 50px 25px;
+}
+
+#quotes blockquote > strong{
+    font-size: 1.5em;
+}
+
+#quotes blockquote i {
+    float: right;
+}
+
+#quotes blockquote{
+    margin: 20px 20px 20px 40px;
+    width: 350px;
+}
+
+#ourMenu{
+    overflow: auto;
+    width: 480px;
+}
+
+#ourMenu > img {
+    width: 200px;
+    margin-left: 25px;
+}
+
+#ourMenu img[src|='menu'] {
+    float: left;
+    margin: 0 50px;
+}
+
+#ourMenu p{
+    width: 220px;
+    float: left;
+    margin: 0 0 20px 20px;
+}
+
