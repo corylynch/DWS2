@@ -1,0 +1,255 @@
+
+
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#header{
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#header img{
+    width: 10.41666667%; /*100px;*/
+    float: left;
+}
+
+#header nav{
+    width: 84.375%; /*810px*/
+    padding-left: 5.208333333%; /*50px;*/
+    overflow: auto;
+}
+
+#header nav ul{
+    float: right;
+    margin-top: 50px;
+}
+
+#header nav li{
+    display: inline;
+    width: 6.172839506%; /*50px;*/
+    margin-left: 30px;
+}
+
+#header nav li a{
+    text-decoration: none;
+    color: #2F2E2D;
+    font-size: 1.25em; /*20px;*/
+}
+
+#header nav li a:hover{
+    color: grey;
+
+}
+
+#main-content{
+    clear: left;
+    height: 450px;
+    padding: 2.083333333%; /*20px;*/
+    background: url(../images/beach.jpg) center center no-repeat;
+    font-family: 'Fenix', serif;
+
+}
+
+#find-hotel{
+    width: 41.66666667%; /*400px;*/
+    padding: 1px 1.041666667% 20px; /*1px 10px 20px*/
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.input-field{
+    clear: left;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+    border-bottom: 1px solid #D1D3D4;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+.input-field h1, .input-field h3, .input-field h4{
+    margin: 0;
+    padding: 0;
+}
+
+.input-field h4{
+    margin-top: 10px;
+}
+
+.input-field .dates{
+    float: left;
+    margin-right: 5%; /*20px;*/
+}
+
+.input-field select{
+    float: left;
+    clear: both;
+}
+
+.input-field input[name = 'location']{
+    width: 90%;
+    height: 20px;
+}
+
+.input-field input[name = 'location']:focus{
+    outline: none;
+}
+
+#submit{
+    float: right;
+    width: 25%; /*100px;*/
+    color: white;
+    background-color: #F27D30;
+    font-size: 1.25em; /*20px;*/
+    border: none;
+    cursor: pointer;
+}
+
+#submit:focus{
+    outline: none;
+}
+
+#submit:hover{
+    background-color: #B65E24;
+}
+
+.main-feature{
+    width: 47.91666667%; /*460px;*/
+    float: left;
+    margin: 1.041666667%; /*0 10px*/
+    font-family: 'Fenix', serif;
+}
+
+.main-feature h2{
+    font-family: 'Courgette', cursive;
+    color: white;
+    background-color: #F27D30;
+    font-size: 1.5em;
+    padding: 5px 1.086956522%; /*5px 5px*/
+}
+
+.main-feature p, .main-feature h2{
+    padding-left: 1.086956522%; /*5px;*/
+}
+
+.main-feature .read-more{
+    float: right;
+    margin-right: 1.086956522%; /*5px;*/
+}
+
+.main-feature .read-more a{
+    text-decoration: none;
+    color: #2F2E2D;
+    font-size: 1.25em;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+}
+
+footer p{
+    width: 50%; /*480px;*/
+    float: left;
+}
+
+footer #photocite{
+    float: right;
+    text-align: right;
+}
+
+
+/*----------------------------------------MEDIA QUERIES--------------------------------------
+-------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 710px) and (max-width:900px) {
+
+    #find-hotel{
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:710px) {
+
+    #header img{
+        clear: both;
+        width: 20.833333334%;
+        margin: 0 39.5833335%;
+    }
+
+    #header nav {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #header nav ul{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #header nav li{
+        width: 20%;
+        margin-left: 8%;
+
+    }
+
+    #find-hotel{
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+
+@media screen and (max-width:499px) {
+
+    #header img{
+        clear: both;
+        width: 40%;
+        margin: 0 30%;
+    }
+
+    #header nav {
+        width: 90%;
+    }
+
+    #header nav ul{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #header nav li{
+        width: 100%;
+        margin: 10px 0;
+        display: block;
+        text-align: center;
+        background-color: #F27D30;
+    }
+
+    #header nav li a{
+        color: white;
+    }
+
+    #header nav li a:hover{
+        color: #666666;
+    }
+
+    #main-content{
+        background: none;
+    }
+
+    #find-hotel{
+        width: 100%;
+        background-color: #F2F2F0;
+    }
+
+    .main-feature{
+        width: 100%;
+    }
+
+}

@@ -35,6 +35,18 @@
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
+        nav ul{
+            float: none;
+            margin: 0;
+        }
+
+        nav li{
+            float: none;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
         nav a{
             width: 100%;
             background: #eee; /* Old browsers */
@@ -70,6 +82,19 @@
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+
+        nav ul{
+            float: none;
+            margin: 0;
+        }
+
+        nav li{
+            float: none;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
         nav a{
             width: 100%;
             background: #eee; /* Old browsers */

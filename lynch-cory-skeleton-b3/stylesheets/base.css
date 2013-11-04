@@ -62,18 +62,35 @@
         background: url(../images/chopsticks.png) center right no-repeat;
     }
 
-    .twelve.columns #logo{
+    .eight.columns #logo{
         width: 300px;
     }
 
     nav{
+        width: 100%;
         padding-top: 30px;
-        text-align: center;
+    }
+
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+
+    nav li{
+        width: 50px;
+        float: left;
+        margin: 0 10px;
+    }
+
+    nav li#faq{
+        margin: 0;
     }
 
     nav a{
         text-decoration: none;
-        padding: 5px;
+        width: 100%;
+        font-size: 1.25em;
+        padding: 10px;
     }
 
     nav a:hover{
@@ -81,8 +98,9 @@
         color: white;
     }
 
-    .container .eight.columns {
+    .container .eight.columns.main {
         margin-top: 30px;
+        clear: both;
     }
 
     #freeRamen{
@@ -104,12 +122,17 @@
         outline: none;
     }
 
-    .container .sixteen.columns{
+    .container .two-thirds.column.main-info{
         margin-top: 40px;
+        clear: both;
     }
 
-    .container .sixteen.columns p {
+    .container .two-thirds.column.main-info p {
         background-color: rgba(255,255,255,.5)
+    }
+
+    section #main-features {
+        clear: both;
     }
 
     .main-feature {
@@ -132,6 +155,10 @@
 
     .main-feature .read-more a{
         text-decoration: none;
+    }
+
+    footer{
+        margin-top: 20px;
     }
 
 /* #Typography
