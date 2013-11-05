@@ -1,0 +1,17 @@
+figure{
+    width: 100%;
+}
+
+.main-pics{
+    margin: 20px 0;
+}
+
+.main-pics .col-md-4.pull-left{
+    margin: 10px 0;
+}
+
+.jumbotron{
+
+    color: #ffffff;
+
+}

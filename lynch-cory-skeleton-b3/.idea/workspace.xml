@@ -38,7 +38,7 @@
       <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="117" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.5884146">
+            <state line="13" column="32" selection-start="281" selection-end="281" vertical-scroll-proportion="0.2972561">
               <folding />
             </state>
           </provider>
@@ -329,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="37" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="111" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.0">
@@ -350,9 +343,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="117" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.5884146">
+        <state line="13" column="32" selection-start="281" selection-end="281" vertical-scroll-proportion="0.2972561">
           <folding />
         </state>
       </provider>
