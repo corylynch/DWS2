@@ -9,3 +9,22 @@ figure{
 .main-pics .col-md-4.pull-left{
     margin: 10px 0;
 }
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+thead th, tfoot th, [id="episode"] th {
+    text-align: center;
+}
+
+[id="episode"] th {
+    width: 14.285714286%;
+}
+[class="ageGroup"] th {
+    text-align: right;
+}
+[class="ageGroup"] td {
+    text-align: center;
+}
