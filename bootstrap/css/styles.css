@@ -41,3 +41,8 @@ footer {
 footer h4 {
     padding: 5px 1.5625% 15px;
 }
+
+.jumbotron{
+    background: url("../images/cta_adoption.jpg") top center no-repeat;
+    color: #ffffff;
+}
