@@ -22,9 +22,11 @@ thead th, tfoot th, [id="episode"] th {
 [id="episode"] th {
     width: 14.285714286%;
 }
+
 [class="ageGroup"] th {
     text-align: right;
 }
+
 [class="ageGroup"] td {
     text-align: center;
 }
@@ -34,8 +36,6 @@ footer {
     text-align: center;
     background-color: #F8F8F8;
     border-top: 1px solid #E7E7E7;
-    position:absolute;
-    bottom:0;
 }
 
 footer h4 {
