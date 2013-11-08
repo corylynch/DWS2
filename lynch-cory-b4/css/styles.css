@@ -1,0 +1,61 @@
+.container .navbar{
+    background-color: #F2F2F2;
+}
+
+.container .active1#active{
+    background-color: #2F2E2D;
+}
+
+.container .active1#active a{
+    color: white;
+}
+
+.container #logo{
+    width: 300px;
+}
+
+.container .jumbotron{
+    background: url('../images/urban-background.jpg') center left no-repeat;
+}
+
+.container .jumbotron h1{
+    color: #5CB85C;
+}
+
+.container .jumbotron p{
+    color: white;
+}
+
+.container .row{
+    margin-top: 30px;
+}
+
+.list-group .list-group-item{
+    list-style-type: none;
+}
+
+.container .row .col-md-3 figcaption {
+    margin: 10px 0;
+}
+
+.container .row .col-md-3.margin{
+    margin-bottom: 20px;
+}
+
+.container .footer{
+    background-color: #F2F2F2;
+    padding: 20px 10px 1px;
+    border-radius: 5px;
+}
+
+.container .row .col-md-3 .list-group-item:hover{
+    background-color: #2F2E2D;
+}
+
+.container .row .col-md-3 .list-group-item a{
+    color: #2F2E2D;
+}
+
+.container .row .col-md-3 .list-group-item:hover a{
+    color: white;
+}
