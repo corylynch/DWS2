@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+
+.title-area h1 img{
+    width: 100px;
+}
+
+nav.top-bar ul.dropdown li a{
+    background-color: #737373;
+    color: #C7C7C7;
+}
+
+nav.top-bar ul.dropdown li a:hover{
+    background-color: #4A4A4A;
+    color: #ffffff;
+}
+
+#main-header{
+    color: white;
+}
+
+#main-header b{
+    color: orange;
+}
+
+.orbit-container .orbit-slide-number, .orbit-container .orbit-bullets{
+    display: none;
+}
+
+.orbit a{
+    color: white;
+}
+
+.orbit a:hover{
+    color: #666666;
+}
+
+.section-container .title a{
+    margin-right: 100px;
+    padding: 10px;
+    background-color: #737373;
+    color: #C7C7C7;
+    text-align: center;
+}
+
+.section-container .title a:hover{
+    background-color: #4A4A4A;
+    color: #ffffff;
+}
+
+#av-sub-nav-back{
+    background-color: #333333;
+    padding-left: 10px;
+}
+
+#av-sub-nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#av-sub-nav h2{
+    margin-bottom: 0;
+}
+
+#av-sub-nav ul{
+    margin-top: 0;
+}
+
+#av-sub-nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+#av-sub-nav ul li a{
+    color: #757575;
+}
+
+#av-sub-nav ul li a:hover{
+    color: white;
+}
+
+#aventador-title{
+    color: white;
+}
+
+.panel h3{
+    font-size: 1em;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+
+.bottom-headline{
+    font-size: 1.5em;
+}
+
+.bottom-headline h1{
+    color: orange;
+    margin-bottom: 0;
+}
+
+.bottom-headline p{
+    color: #ffffff;
+}
+
+.av-overview h1{
+   color: orange;
+}
+
+.av-overview p{
+    color: white;
+}
+
