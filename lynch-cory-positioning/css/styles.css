@@ -1,0 +1,200 @@
+#wrapper{
+    max-width: 960px;
+    min-width: 438px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    background-color: #2F2E2D;
+    padding: 10px;
+    position: relative;
+}
+
+nav ul{
+    position: absolute;
+    margin: 0;
+    left: 600px;
+    top: 14px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #6f6f6f;
+
+}
+
+#heading{
+    height: 252px;
+    width: 100%;
+    background: url('../images/mclaren-mp4-12c.jpg') center center no-repeat;
+    position: relative;
+}
+
+#heading h1{
+    padding: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#heading h1 b{
+    color: #fd2c1f;
+}
+
+#heading a{
+    padding: 30px 20px 0;
+}
+
+#box-1 h1, #box-2 h1, #box-3 h1{
+    color: #2F2E2D;
+    text-align: center;
+}
+
+#box-1{
+    width: 264px;
+    padding: 10px;
+    border-bottom: 3px solid #fd2c1f;
+    margin: 15px;
+    float: left;
+    position: absolute;
+    top: 350px;
+}
+
+#box-2{
+    width: 264px;
+    padding: 10px;
+    border-bottom: 3px solid #fd2c1f;
+    margin: 15px;
+    float: left;
+    position: absolute;
+    left: 320px;
+    top: 350px;
+
+}
+
+#box-3{
+    width: 264px;
+    padding: 10px;
+    border-bottom: 3px solid #fd2c1f;
+    margin: 15px;
+    float: left;
+    position: absolute;
+    left: 640px;
+    top: 350px;
+}
+
+.main-feature:hover div{
+    background-color: #EBEBEB;
+}
+
+footer{
+    padding: 5px;
+    margin: 15px;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+}
+
+/*---------------------------------------------MEDIA QUERIES---------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 951px) {
+    nav ul{
+        left: 500px;
+    }
+
+    #box-1{
+        width: 100%;
+    }
+
+    #box-2{
+        width: 50%;
+        left: 0;
+        top: 475px;
+    }
+
+    #box-3{
+        width: 50%;
+        left: 50%;
+        top: 475px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    nav ul{
+        left: 400px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    nav ul{
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 657px) {
+    nav ul{
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    nav ul{
+        left: 0;
+        top: 50px;
+        text-align: center;
+    }
+
+    nav li{
+        width: 400px;
+        display: block;
+        background-color: #2F2E2D;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    #heading{
+        top: 150px;
+    }
+
+    #box-1{
+        width: 100%;
+        top: 500px;
+    }
+
+    #box-2{
+        width: 100%;
+        left: 0;
+        top: 655px;
+    }
+
+    #box-3{
+        width: 100%;
+        left: 0;
+        top: 810px;
+    }
+
+    footer{
+        top: 950px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    nav ul{
+       left: -40px;
+    }
+
+    #box-1, #box-2, #box-3, footer{
+        width: 400px;
+        left: -20px;
+    }
+}
