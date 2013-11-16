@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Form</title>
+    <link rel = 'stylesheet' href = 'css/styles.css' type = 'text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id = 'wrapper'>
+        <div id = 'form-wrapper'>
+            <h1>Complete this form</h1>
+            <form>
+                <div class = 'input first-name'>
+                    <label for = 'first-name'>First name</label>
+                    <input id = 'first-name' type = 'text' placeholder = 'First name' maxlength = '30' required>
+                </div>
+                <div class = 'input last-name'>
+                    <label for = 'last-name'>Last name</label>
+                    <input id = 'last-name' type = 'text' placeholder = 'Last name' maxlength = '30' required>
+                </div>
+                <div class = 'input address'>
+                    <label for = 'address'>Address</label>
+                    <input id = 'address' type = 'text' placeholder = 'Address' maxlength = '30' required>
+                </div>
+                <div class = 'input'>
+                    <label for = 'color'>Favorite color</label>
+                    <div class = 'radio'>
+                        <input id = 'color' type = 'radio' name = 'color' value = 'male'>Red
+                    </div>
+                    <div class = 'radio'>
+                        <input type = 'radio' name = 'color' value = 'male'>Yellow
+                    </div>
+                    <div class = 'radio'>
+                        <input type = 'radio' name = 'color' value = 'male'>Blue
+                    </div>
+                    <div class = 'radio'>
+                        <input type = 'radio' name = 'color' value = 'male'>Green
+                    </div>
+                    <div class = 'radio'>
+                        <input type = 'radio' name = 'color' value = 'male'>Orange
+                    </div>
+                </div>
+                <div class = 'input explain'>
+                    <label for = 'explain'>Why do you like that color?</label>
+                    <textarea name="comments" id = 'explain' placeholder = 'Explain why that is your favorite color' required></textarea>
+                </div>
+                <div class = 'input'>
+                    <label for = 'birthday'>Your birthday</label>
+                    <input type="date" name="birthday" id = 'birthday' required>
+                </div>
+                <div class = 'input job'>
+                    <label for = 'job'>Place of employment</label>
+                    <input id = 'job' type = 'text' placeholder = 'Your job' maxlength = '30' required>
+                </div>
+                <div class = 'input'>
+                    <label for = 'start-date'>When did you start working there?</label>
+                    <input type="date" name="start-date" id = 'start-date' required>
+                </div>
+                <div class = 'input range'>
+                    <label for = 'range'>How long have you been working there?(years)</label>
+                    <div id = 'numbers'>
+                        <p>0</p>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>
+                        <p>5</p>
+                        <p>6</p>
+                        <p>7</p>
+                        <p>8</p>
+                        <p>9</p>
+                        <p>10+</p>
+                    </div>
+                    <input id = 'range' type = 'range' name = 'phone' min = '0' max = '10' required>
+                </div>
+                <div class = 'input phone'>
+                     <label for = 'phone'>Your phone number</label>
+                     <input id = 'phone' type = 'text' name = 'phone' placeholder = '(555)-555-555' required>
+                </div>
+                <div class = 'input submit'>
+                      <input type = 'submit' name = 'submit' value = 'Submit' id = 'submit'>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

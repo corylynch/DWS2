@@ -1,0 +1,122 @@
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #2F2E2D;
+    padding: 20px;
+}
+
+#form-wrapper{
+    max-width: 720px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.input.first-name, .input.last-name, .input.explain, .input.address, .input.job, .input.phone{
+    width: 100%;
+}
+
+.input, .input input, .input .input-group, .input .radio, .input #comments{
+    clear: left;
+    float: left;
+}
+
+.input.first-name input[type='text'], .input.last-name input[type='text']{
+    width: 30%;
+}
+
+.input label{
+    float: left;
+}
+
+.input{
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 500px;
+
+}
+
+.input label{
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.input input[type='text']{
+    width: 50%;
+    height: 20px;
+}
+
+.input.phone input{
+    width: 100px;
+}
+
+.input textarea{
+    width: 75%;
+    height: 60px;
+}
+
+.input.submit{
+    float: right;
+}
+
+.input.range p{
+    float: left;
+    margin: 0 22px 0 0; /*22px/500;x*/
+}
+
+.input #numbers{
+    clear: both;
+}
+
+.input.range input{
+    width: 310px;  /*310px/500px*/
+}
+
+.input.submit{
+    width: 100%;
+}
+
+#submit{
+    float: right;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    background-color: #f27d30;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #8A471B
+}
+
+@media screen and (max-width: 600px) {
+    .input{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .input.range{
+        width: 350px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    .input input[type='text'], .input.first-name input[type='text'], .input.last-name input[type='text']{
+        width: 100%;
+    }
+
+    .input .radio{
+        margin-bottom: 15px;
+    }
+
+}
