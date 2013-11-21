@@ -33,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="104" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-15.0">
+            <state line="6" column="73" selection-start="224" selection-end="224" vertical-scroll-proportion="0.14106584">
               <folding />
             </state>
           </provider>
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="581" column="43" selection-start="10208" selection-end="10208" vertical-scroll-proportion="0.66012084">
+            <state line="581" column="43" selection-start="10208" selection-end="10208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,9 +95,9 @@
         <option value="$PROJECT_DIR$/turkey.html" />
         <option value="$PROJECT_DIR$/ukraine.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/newsletter.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -365,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="104" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brazil.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="57" selection-start="202" selection-end="202" vertical-scroll-proportion="-0.625">
@@ -388,7 +381,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="581" column="43" selection-start="10208" selection-end="10208" vertical-scroll-proportion="0.66012084">
+        <state line="581" column="43" selection-start="10208" selection-end="10208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="73" selection-start="224" selection-end="224" vertical-scroll-proportion="0.14106584">
           <folding />
         </state>
       </provider>
