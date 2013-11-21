@@ -501,6 +501,11 @@ footer ul a{
         margin-bottom: 50px;
     }
 
+    #hotel-search form input[type = 'text']{
+        width: 90%;
+        margin: 2%;
+    }
+
     #wrapper h1#featured-destinations{
         clear: both;
         margin-top: 50px;
