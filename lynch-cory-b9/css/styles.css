@@ -22,12 +22,16 @@ body{
 }
 
 #header-wrapper{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 5px;
+    padding: 5px 0;
 
 
+}
+
+#header-wrapper #logo{
+    width: 50%;
 }
 
 #header-wrapper img{
@@ -37,7 +41,7 @@ body{
 
 nav{
     float: right;
-    width: 760px;
+    width: 50%;
 
 }
 
@@ -89,13 +93,13 @@ nav ul li:hover > ul{
 
 #main-search{
     background: url(../images/china-mountains.jpg) center center no-repeat;
-    width: 940px;
+    max-width: 940px;
     padding: 10px;
     height: 400px;
 }
 
 #main-search #hotel-search{
-    width: 420px;
+    max-width: 420px;
     background-color: #fff;
     padding: 10px;
     border-radius: 7px;
@@ -129,7 +133,7 @@ nav ul li:hover > ul{
 
 #hotel-search form label{
     float: left;
-    padding: 0 0 0 33px;
+    padding: 0 0 0 22px;
     font-size: 1.3em;
 
 }
@@ -181,8 +185,8 @@ nav ul li:hover > ul{
 =======================================================================================*/
 
 .featured-dest{
-    width: 280px;
-    margin: 0 20px;
+    width: 29.16666667%; /*280px;/960*/
+    margin: 0 2.083333333%; /*20px;*/
     float: left;
 }
 
@@ -198,10 +202,10 @@ nav ul li:hover > ul{
 
 .featured-dest p{
     position: relative;
-    top: -49px;
-    width: 260px;
+    top: -51px;
+    width: 92.85714286%; /*260px;*/
     background-color: rgba(47,46,45,.8);
-    padding: 10px;
+    padding: 10px 3.571428571%;
     font-size: 1.2em;
     margin: 0;
     transition-property: background-color, color;
@@ -244,13 +248,13 @@ nav ul li:hover > ul{
     width: 70%;
     height: 25px;
     float: left;
-    margin: 5px 5px 0 0;
+    margin: 5px .5208333333% 0 0;
 
 }
 
 #newsletter form #newsletter-submit{
     float: left;
-    padding: 5px 5px;
+    padding: 5px .5208333333%;
     background-color: #2F2E2D;
     border: none;
     color: white;
@@ -300,7 +304,7 @@ table td, table th{
 }
 
 footer{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     height: 100px;
     padding: 5px 0;
@@ -432,7 +436,161 @@ footer ul a{
 /*========================================== MEDIA QUERIES ======================================
 =======================================================================================*/
 
-@media screen and (max-width: )
+@media screen and (max-width: 806px) {
+    #main-search #hotel-search{
+        margin: 0 auto;
+    }
+
+    .featured-dest{
+        width: 46%;
+        margin: 2%;
+    }
+
+    #newsletter{
+        width: 96%;
+        margin: 20px 2%;
+    }
+
+    #table{
+        width: 100%;
+        margin: 50px auto;
+        float: none;
+
+    }
+
+    #table h2{
+        font-size: 2em;
+    }
+
+    table td, table th{
+        padding: 10px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 696px) {
+    #hotel-info-wrapper #video{
+        clear: both;
+        float: none;
+        width: 96%;
+        margin: 20px 2%;
+    }
+
+    #hotel-info-wrapper #book-info{
+        width: 46%;
+        margin: 2%;
+    }
+
+    #hotel-info-wrapper #img-prices{
+        width: 46%;
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .featured-dest{
+        width: 96%;
+        margin: 2%;
+    }
+
+    #main-search{
+        background: none;
+    }
+
+    #main-search #hotel-search{
+        margin-bottom: 50px;
+    }
+
+    #wrapper h1#featured-destinations{
+        clear: both;
+        margin-top: 50px;
+    }
+
+    #hotel-search #submit{
+        width: 96%;
+        margin: 2%;
+    }
+
+    #hotel-search form .dates{
+        float: left;
+        margin: 20px 2% 0;
+        width: 96%;
+    }
+
+    #hotel-search form .dates label{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #hotel-search form .dates input{
+        width: 100%;
+    }
+
+    #newsletter form input[type='text']{
+        width: 94%;
+        margin: 10px 2%;
+    }
+
+    #newsletter form #newsletter-submit{
+        width: 50%;
+        margin: 10px 23%;
+    }
+
+    #header-wrapper #logo{
+        width: 100%;
+    }
+
+    nav{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul{
+        display: block;
+        float: none;
+        margin-left: 0;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin: 22px 0;
+    }
+
+    nav ul li a{
+        background-color: #615F5D;
+        padding: 8px 48%;
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    #hotel-info-wrapper #book-info{
+        width: 96%;
+        margin: 2%;
+    }
+
+    #hotel-info-wrapper #img-prices{
+        width: 96%;
+        margin: 2%;
+    }
+
+    #hotel-info-wrapper #book-info a#book{
+        padding: 5px 34%;
+        margin: 0 auto;
+    }
+
+    #form-wrapper input[type = 'text'], #form-wrapper textarea{
+        width: 96%;
+        margin: 2%;
+    }
+
+
+
+}
+
+
 
 
 
